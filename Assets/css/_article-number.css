@@ -1,0 +1,84 @@
+.article-wrapper {
+  background: var(--bg-sections);
+  padding: 20px 0px;
+  min-height: 300px;
+  margin: 56px 0;
+  background-position: center;
+  box-shadow: 10px 10px 23px 0px #23221d;
+}
+.article-events {
+  background: var(--secondary-color);
+  margin-bottom: 10px;
+  min-height: 10px;
+  overflow: none;
+}
+.article-events .card-body p {
+  color: rgb(61, 49, 49);
+  background-color: white;
+  width: 100%;
+  min-height: 3.2rem;
+  padding-top: 8px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.topic-wrapper {
+  margin-right: 3.5%;
+}
+.topic-wrapper .card-header {
+  overflow: hidden;
+}
+.topic-wrapper .card-header img {
+  transition: 0.5 linear;
+}
+.topic-wrapper :hover img {
+  opacity: 1;
+  filter: none;
+  transform: scale(1.2) rotate(10deg);
+}
+.post-time {
+  top: -35px;
+  background-color: var(--icons);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.topic-wrapper .card-footer ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 10px;
+  color: var(--icons);
+  cursor: pointer;
+}
+
+.topic-wrapper .card-footer ul li span i {
+  padding-left: 5px;
+}
+.info-bottom-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-bottom-card > li:nth-child(2) > span > i {
+  display: flex;
+}
+.insurance-type-line-article {
+  top: -45px;
+  right: 41%;
+}
+@media (max-width: 767.99px) {
+  .article-wrapper > .row:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .article-wrapper > .row:last-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

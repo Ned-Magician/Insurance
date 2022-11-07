@@ -1,0 +1,121 @@
+.faq-section-bg {
+  background-image: url(../img/safety\ background-FAQ.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  width: 100%;
+}
+#faq-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.faq-title :first-child {
+  transform: translate(0, -100%);
+  font-size: 14px;
+}
+div.faq-title span:only-of-type {
+  padding: 0;
+}
+.faq-section-bg .faq-right-side {
+  background: rgba(0, 71, 204, 0.603);
+  min-height: 250px;
+  margin-left: 6px;
+  box-shadow: 1px 1px 5px 1px #a29586;
+}
+.faq-section-bg .faq-right-side ul li {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #c6c3b7;
+}
+.faq-right-side ul li i:first-child {
+  font-size: 37px;
+  color: var(--icons);
+  background: var(--bg-sections);
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 6px;
+}
+.faq-right-side ul li h6:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.faq-right-side ul li p:first-of-type {
+  font-size: 13px;
+  padding-top: 8px;
+}
+.faq-section-bg .faq-left-side .tabs {
+  border-radius: 3px 3px 10px 10px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 4px -2px rgba(255, 255, 255, 0.5);
+}
+.faq-section-bg .faq-left-side .tab {
+  overflow: hidden;
+}
+.faq-section-bg .faq-left-side .tab-label {
+  padding: 10px;
+  background: rgba(0, 71, 204, 0.603);
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.faq-section-bg .faq-left-side .tab-label:hover {
+  background: rgba(233, 77, 46, 0.63);
+}
+.faq-section-bg .faq-left-side .tab-label::after {
+  content: "\276f";
+  text-align: center;
+  transition: 0.4s;
+  float: right;
+  padding: 2px 0 0 0;
+}
+.faq-section-bg .faq-left-side .tab-content-support {
+  max-height: 0;
+  background-color: #2b2babd9;
+  transition: 0.5s ease;
+  font-size: 15px;
+  font-family: system-ui;
+  line-height: 1.4;
+  overflow-y: scroll;
+}
+.faq-section-bg .faq-left-side input:checked ~ .tab-content-support {
+  max-height: 112px;
+  padding: 10px;
+}
+.faq-section-bg .faq-left-side input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+}
+.faq-section-bg .faq-left-side input {
+  display: none;
+}
+.faq-section-bg .faq-left-side .tab-content-support::-webkit-scrollbar {
+  border-radius: 20%;
+  background-color: #acace2d9;
+}
+.faq-section-bg .faq-left-side .tab-content-support::-webkit-scrollbar-thumb {
+  background: rgb(80, 112, 173);
+  height: 5px;
+}
+.faq-section-bg .faq-left-side .tab-content-support::-webkit-scrollbar-button {
+  background-color: #acace2d9;
+  border-radius: 3%;
+  height: 0;
+}
+.faq-section-bg .faq-left-side .tab-content-support::-webkit-scrollbar {
+  width: 3%;
+}
+@media (max-width: 767.99px) {
+  #faq-content {
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  #faq-content > div:first-child {
+    margin: 3.5% 0 0 0;
+  }
+}

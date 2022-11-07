@@ -1,0 +1,50 @@
+.insurance-type-line-statistics :first-child {
+  font-size: 0.9rem;
+  top: -36px;
+}
+.statistics-wrapper {
+  background-color: var(--bg-sections);
+  min-height: 170px;
+  margin-top: 130px;
+}
+.event-statistics {
+  background: none;
+  cursor: default;
+  margin: 21px;
+  filter: drop-shadow(2px 4px 6px black);
+  border-radius: 5px;
+}
+.title-statics {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 2px solid rgb(255 255 255);
+  color: white;
+  background: var(--icons);
+  border-radius: 25px;
+  font-size: 0.9em;
+  padding: 0 10px;
+  text-align: center;
+}
+/* .long-title-statics {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+} */
+.statistics-numbers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 35px;
+  color: var(--icons);
+}

@@ -1,0 +1,121 @@
+.custemers {
+  width: 100%;
+  height: auto;
+  background: #ada996;
+  background: var(--secondary-color);
+}
+
+.saeed-expersion-1 {
+  max-width: 61%;
+  opacity: 0.7;
+}
+
+.technician {
+  border: 10px groove #c7c7937a;
+  top: 67%;
+  left: 29%;
+  width: 45%;
+  background: #f9f9f9;
+  box-shadow: -1px 4px 3px 0px #9b9aa7;
+  color: #777777;
+  border-radius: 5px;
+}
+.technician h5 span {
+  background-color: rgba(17, 0, 255, 0.774);
+  font-size: 14px;
+  padding: 2px 6px;
+  border-radius: 18px /48%;
+  color: aliceblue;
+}
+.technician a {
+  padding: 2px 6px;
+  color: rgb(114, 86, 40);
+  top: 50%;
+  left: 40%;
+  border: 1px solid #865609;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.technician a:hover {
+  background-color: peachpuff;
+}
+
+/*start media md  */
+@media only screen and (max-width: 768px) {
+  .technician a {
+    padding: 2px 2px;
+    color: rgb(193 120 1);
+    top: 45%;
+    left: 40%;
+    border: 1px solid #865609;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .technician h5 span {
+    background-color: rgba(17, 0, 255, 0.774);
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 18px /48%;
+    color: aliceblue;
+  }
+
+  .technician h5 {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+}
+/*End media md  */
+/*start media sm  */
+@media only screen and (max-width: 767.99px) {
+  .technician {
+    height: 100%;
+    top: 55%;
+    left: 17%;
+    width: 67%;
+  }
+}
+/*start media sm  */
+/*start media lg  */
+@media (min-width: 768px) and (max-width: 1129.98px) {
+  .technician {
+    height: 60%;
+    top: 67%;
+    left: 30%;
+    width: 43%;
+  }
+}
+/*start media lg  */
+/*start media xlg  */
+@media only screen and (min-width: 1130px) {
+  .technician a {
+    padding: 3px 8px;
+    color: rgb(193 120 1);
+    top: 52%;
+    left: 44%;
+    border: 1px solid #865609;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .technician h5 span {
+    background-color: rgba(17, 0, 255, 0.774);
+    font-size: 1.4rem;
+    padding: 2px 6px;
+    border-radius: 13px /30%;
+    color: aliceblue;
+  }
+  .technician {
+    height: 50%;
+  }
+  .technician h5 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+}
+/*End media xlg  */

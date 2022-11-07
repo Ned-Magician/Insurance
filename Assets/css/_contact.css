@@ -1,0 +1,25 @@
+.container-fluid-custom {
+  background-color: rgb(2, 2, 136);
+  color: aliceblue;
+  font-size: 16px;
+}
+.container i {
+  color: var(--contact-icons-color);
+}
+.container a {
+  color: aliceblue;
+}
+.container i:hover {
+  border-radius: 7px;
+  background-color: rgba(81, 7, 218, 0.4);
+  filter: brightness(1.7);
+  transition: 0.5s ease-out;
+}
+.social-media a span i:first-child {
+  top: 1.4px;
+}
+@media screen and (max-height: 696) {
+  .container-fluid-custom {
+    display: none;
+  }
+}
