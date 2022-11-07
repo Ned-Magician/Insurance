@@ -1,15 +1,17 @@
-# Fitness :weight_lifting_woman: :muscle:
+# Insurance :health_worker:
 
-- The fitness landing page was scratched by me on Figma.
-- This landing page uses `HTML, CSS, JavaScript, Bootstrap, scss and GULP.`
-
-- This is a professional code design.
+- This insurans landing page is user-friendly with a clear visual design.
+- It's ONLY has used `HTML, CSS.`
+- Smooth scroll.
 - It's beautiful in terms of UX and makes the code compile easily.
+- Simulation of Bootstrap's Classes, Roots, and grids without using Bootstrap.
+- Fully responsive by the grit system I've built.
 ---
 _Screenshots:_
-
-![Fitness-Pics](https://github.com/Ned-Magician/fitness/blob/main/Fitness/1.JPG)
-![Fitness-Pics](https://github.com/Ned-Magician/fitness/blob/main/Fitness/2.JPG)
-![Fitness-Pics](https://github.com/Ned-Magician/fitness/blob/main/Fitness/3.JPG)
-![Fitness-Pics](https://github.com/Ned-Magician/fitness/blob/main/Fitness/4.JPG)
-![Fitness-Pics](https://github.com/Ned-Magician/fitness/blob/main/Fitness/5.JPG)
+- Home page
+![Insurance-Pics](https://github.com/Ned-Magician/Insurance/blob/main/Insurance/1.JPG)
+- _Card section with smoth card_
+![Insurance-Pics](https://github.com/Ned-Magician/Insurance/blob/main/Insurance/3.JPG)
+![Insurance-Pics](https://github.com/Ned-Magician/Insurance/blob/main/Insurance/4.JPG)
+- _Footer_
+![Insurance-Pics](https://github.com/Ned-Magician/Insurance/blob/main/Insurance/5.JPG)
